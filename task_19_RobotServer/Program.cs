@@ -47,7 +47,7 @@ while (running)
     }
 
     var message = Encoding.UTF8.GetString(buffer, 0, recived)
-        .Trim().ToUpperInvariant();
+        .Trim().ToUpper();
 
     string buff;
     switch (message)
